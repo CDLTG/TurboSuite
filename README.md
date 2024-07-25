@@ -35,9 +35,11 @@ TurboTape Fixture description
 
 #### TurboTape (Custom)
 TurboTape Custom description
+![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
 
 #### TurboTape (Array)
 TurboTape Array description
+![TurboTape Array gif](/GIF/TurboTape(Array).gif)
 
 ### TurboDriver
 TurboDriver description
