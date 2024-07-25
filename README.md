@@ -55,6 +55,7 @@ TurboScale description
 
 ### TurboChange
 TurboChange description
+![TurboChange gif](/GIF/TurboChange.gif)
 
 ### TurboName
 TurboName description
