@@ -7,6 +7,10 @@ Turbo Suite description
 
 - [TurboTape](#turbotape)
 -   [TurboTape (Horizontal)](#turbotape-(horizontal))
+-   [TurboTape (Vertical)](#turbotape-(vertical))
+-   [TurboTape (Fixture)](#turbotape-(fixture))
+-   [TurboTape (Custom)](#turbotape-(custom))
+-   [TurboTape (Array)](#turbotape-(array))
 - [TurboDriver](#turbodriver)
 - [TurboBubble](#turbobubble)
 - [TurboScale](#turboscale)
@@ -18,7 +22,19 @@ Turbo Suite description
 ### TurboTape
 
 #### TurboTape (Horizontal)
-TurboTape description
+TurboTape Horizontal description
+
+#### TurboTape (Vertical)
+TurboTape Vertical description
+
+#### TurboTape (Fixture)
+TurboTape Fixture description
+
+#### TurboTape (Custom)
+TurboTape Custom description
+
+#### TurboTape (Array)
+TurboTape Array description
 
 ### TurboDriver
 TurboDriver description
