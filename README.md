@@ -27,9 +27,11 @@ TurboTape Horizontal description
 
 #### TurboTape (Vertical)
 TurboTape Vertical description
+![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
 
 #### TurboTape (Fixture)
 TurboTape Fixture description
+![TurboTape Fixture gif](/GIF/TurboTape(Fixture).gif)
 
 #### TurboTape (Custom)
 TurboTape Custom description
