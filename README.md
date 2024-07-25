@@ -22,7 +22,7 @@ Turbo Suite description
 ### TurboTape
 
 #### TurboTape (Horizontal)
-![Turbo Tape horizontal gif](/GIF/
+![Turbo Tape horizontal gif](/GIF/TurboScale.gif)
 TurboTape Horizontal description
 
 #### TurboTape (Vertical)
