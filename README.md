@@ -47,6 +47,7 @@ TurboDriver description
 
 ### TurboBubble
 TurboBubble description
+![TurboBubble gif](/GIF/TurboBubble.gif)
 
 ### TurboScale
 TurboScale description
