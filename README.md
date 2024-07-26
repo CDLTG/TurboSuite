@@ -1,5 +1,5 @@
 # Turbo Suite
-Turbo Suite is a collection of AutoLISP routines developed to automate repetative AutoCAD tasks
+Turbo Suite is a collection of AutoLISP routines developed to automate repetative AutoCAD tasks.
 
 ## Table of Contents
 - [TurboTape](#turbotape)
