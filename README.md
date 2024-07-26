@@ -19,7 +19,8 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Horizontal)
      - **Command:** `tt`
-     - **Limitations:** Requires a polyline
+     - **Limitations:**
+       - Requires a polyline
     ![TurboTape Horizontal gif](/GIF/TurboTape(Horizontal).gif)
 
   - ### TurboTape (Vertical)
