@@ -18,23 +18,23 @@ Turbo Suite is a collection of AutoLISP routines developed to automate repetitiv
 TurboTape is comprised of five subroutines which allow the user to construct any linear object using TurboTape.
 
   - ### TurboTape (Horizontal)
-  - TurboTape Horizontal description
+    TurboTape Horizontal description
     ![TurboTape Horizontal gif](/GIF/TurboTape(Horizontal).gif)
 
   - ### TurboTape (Vertical)
-  - TurboTape Vertical description
+    TurboTape Vertical description
     ![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
 
   - ### TurboTape (Fixture)
-  - TurboTape Fixture description
+    TurboTape Fixture description
     ![TurboTape Fixture gif](/GIF/TurboTape(Fixture).gif)
 
   - ### TurboTape (Custom)
-  - TurboTape Custom description
+    TurboTape Custom description
     ![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
 
   - ### TurboTape (Array)
-  - TurboTape Array description
+    TurboTape Array description
     ![TurboTape Array gif](/GIF/TurboTape(Array).gif)
 
 ## TurboDriver
