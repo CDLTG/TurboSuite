@@ -1,10 +1,7 @@
 # Turbo Suite
-
-Turbo Suite description
-
+Turbo Suite is a collection of AutoLISP routines developed to automate repetative AutoCAD tasks
 
 ## Table of Contents
-
 - [TurboTape](#turbotape)
   - [TurboTape (Horizontal)](#turbotape-horizontal)
   - [TurboTape (Vertical)](#turbotape-vertical)
@@ -17,9 +14,8 @@ Turbo Suite description
 - [TurboChange](#turbochange)
 - [TurboName](#turboname)
 
-
-
 ## TurboTape
+TurboTape is comprised of five subroutines which allow the user to construct any linear object using TurboTape.
 
 ### TurboTape (Horizontal)
 TurboTape Horizontal description
