@@ -6,7 +6,7 @@ Turbo Suite description
 ### Table of Contents
 
 - [TurboTape](#turbotape)
--     [TurboTape (Horizontal)](#turbotape-(horizontal))
+-    [TurboTape (Horizontal)](#turbotape-(horizontal))
 - [TurboTape (Vertical)](#turbotape-(vertical))
 - [TurboTape (Fixture)](#turbotape-(fixture))
 - [TurboTape (Custom)](#turbotape-(custom))
