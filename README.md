@@ -24,22 +24,22 @@ TurboTape is comprised of five subroutines which allow the user to construct any
     ![TurboTape Horizontal gif](/GIF/TurboTape(Horizontal).gif)
 
   - ### TurboTape (Vertical)
-     - **Command:** `tt;v`
+     - **Command:** `tt ; v`
     TurboTape Vertical description
     ![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
 
   - ### TurboTape (Fixture)
-     - **Command:** `tt;f`
+     - **Command:** `tt ; f`
     TurboTape Fixture description
     ![TurboTape Fixture gif](/GIF/TurboTape(Fixture).gif)
 
   - ### TurboTape (Custom)
-     - **Command:** `tt;c`
+     - **Command:** `tt ; c`
     TurboTape Custom description
     ![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
 
   - ### TurboTape (Array)
-     - **Command:** `tt;a`
+     - **Command:** `tt ; a`
     TurboTape Array description
     ![TurboTape Array gif](/GIF/TurboTape(Array).gif)
 
