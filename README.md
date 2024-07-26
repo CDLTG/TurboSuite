@@ -19,7 +19,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Horizontal)
   - TurboTape Horizontal description
-  - ![TurboTape Horizontal gif](/GIF/TurboTape(Horizontal).gif)
+    ![TurboTape Horizontal gif](/GIF/TurboTape(Horizontal).gif)
 
 ### TurboTape (Vertical)
 TurboTape Vertical description
