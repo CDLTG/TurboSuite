@@ -60,9 +60,10 @@ TurboScale description
 
 ## TurboChange
 TurboChange description
-- **Command:** `ts`
+- **Command:** `tc`
 ![TurboChange gif](/GIF/TurboChange.gif)
 
 ## TurboName
 TurboName description
+- **Command:** `tn`
 ![TurboName gif](/GIF/TurboName.gif)
