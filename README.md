@@ -22,7 +22,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
      - **Limitations:**
        - Requires a polyline as the base object.
        - Circles must be converted into polylines with arcs.
-       - If the segment needs to be adjusted, the base polyline needs to be re-drawn.
+       - If the length needs to be adjusted, the base polyline needs to be re-drawn.
     ![TurboTape Horizontal gif](/GIF/TurboTape(Horizontal).gif)
 
   - ### TurboTape (Vertical)
