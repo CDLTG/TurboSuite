@@ -59,7 +59,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Array)
      - **Command:** `tt;a`
-     - **Function:** Draw an array of matching linear tape, primarily used for stairs.
+     - **Function:** Draw an array of linear tape, primarily used for stairs.
      - **Limitations:**
        - limit 1
        - limit 2
@@ -70,6 +70,12 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 ## TurboDriver
 TurboDriver description
 - **Command:** `td`
+- **Function:** Draw an array of linear tape, primarily used for stairs.
+- **Limitations:**
+  - limit 1
+  - limit 2
+  - limit 3
+
 ![TurboDriver gif](/GIF/TurboDriver.gif)
 
 ## TurboBubble
