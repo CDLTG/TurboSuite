@@ -19,7 +19,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Horizontal)
      - **Commands:** `tt;` `tt;h`
-     - **Uses:** Use TurboTape Horizontal to draw any standard linear tape
+     - **Function:** Draw linear tape.
      - **Limitations:**
        - Requires a polyline as the base object.
        - Requires a new base polyline if lengths need to be adjusted.
