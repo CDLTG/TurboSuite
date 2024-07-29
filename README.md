@@ -15,9 +15,7 @@ Turbo Suite is a collection of AutoLISP routines developed to automate repetitiv
 - [TurboName](#turboname)
 
 ## TurboTape
-TurboTape is comprised of five subroutines which allow the user to construct any object that requires a linear quantity. While this can also be achieved using dynamic blocks, TurboTape names each block independently for use in conjunction with the counts sheet. During creation, you will be prompted for a `Type` and a `Tag` > Type 
-
-> Type 
+TurboTape is comprised of five subroutines which allow the user to construct any object that requires a linear quantity. While this can also be achieved using dynamic blocks, TurboTape names each block independently for use in conjunction with the counts sheet. During creation, you will be prompted for a `Type` and a `Tag`. The Type will be your block name and is a required entry. The Tag is a brief description of the block, and is an optional entry.
 
   - ### TurboTape (Horizontal)
      - **Commands:** `tt;` `tt;h`
