@@ -38,7 +38,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Fixture)
      - **Command:** `tt;f`
-     - **Function:** Draw linear horizontal fixtures with a width dimension.
+     - **Function:** Draw linear horizontal fixtures with a `width` dimension. 
      - **Limitations:**
        - Requires a polyline as the base object.
        - Requires a new base polyline if lengths need to be adjusted.
