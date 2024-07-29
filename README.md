@@ -37,8 +37,8 @@ TurboTape is comprised of five subroutines which allow the user to construct any
       ![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
 
   - ### TurboTape (Fixture)
+    Draw linear horizontal fixtures with a `Width` dimension. This value will default to `2`, but can be given any desired integer value.
      - **Command:** `tt;f`
-     - **Function:** Draw linear horizontal fixtures with a `Width` dimension. This value will default to `2`, but can be given any desired integer value.
      - **Limitations:**
        - Requires a polyline as the base object.
        - Requires a new base polyline if lengths need to be adjusted.
@@ -47,8 +47,8 @@ TurboTape is comprised of five subroutines which allow the user to construct any
       ![TurboTape Fixture gif](/GIF/TurboTape(Fixture).gif)
 
   - ### TurboTape (Custom)
+    Draw allowance for a custom linear tape length.
      - **Command:** `tt;c`
-     - **Function:** Draw allowance for a custom linear tape length.
      - **Limitations:**
        - Requires a polyline as the base object.
        - limit 2
@@ -57,8 +57,8 @@ TurboTape is comprised of five subroutines which allow the user to construct any
       ![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
 
   - ### TurboTape (Array)
+    Draw an array of linear tape, primarily used for stairs.
      - **Command:** `tt;a`
-     - **Function:** Draw an array of linear tape, primarily used for stairs.
      - **Limitations:**
        - limit 1
        - limit 2
