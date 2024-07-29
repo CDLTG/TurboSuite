@@ -20,7 +20,6 @@ TurboTape is comprised of five subroutines which allow the user to construct any
   - ### TurboTape (Horizontal)
     Draw horizontal linear tape of any kind.
      - **Commands:** `tt;` `tt;h`
-     - **Function:** Draw horizontal linear tape of any kind.
      - **Limitations:**
        - Requires a polyline as the base object.
        - Requires a new base polyline if lengths need to be adjusted.
@@ -29,8 +28,8 @@ TurboTape is comprised of five subroutines which allow the user to construct any
       ![TurboTape Horizontal gif](/GIF/TurboTape(Horizontal).gif)
 
   - ### TurboTape (Vertical)
+    Draw vertical linear tape of any kind. TurboTape Vertical can be called as 1,2,3 or 4 runs depending on size and available drafting space.
      - **Command:** `tt;v`
-     - **Function:** Draw vertical linear tape of any kind. TurboTape Vertical can be called as 1,2,3 or 4 runs depending on size and available drafting space.
      - **Limitations:**
        - Requires manual input of tape lengths; follow prompts closely.
        - Once created, the new block will need to be moved into place manually.
