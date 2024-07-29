@@ -18,9 +18,8 @@ Turbo Suite is a collection of AutoLISP routines developed to automate repetitiv
 TurboTape is comprised of five subroutines which allow the user to construct any object that requires a linear. While this can also be achieved using dynamic blocks, TurboTape names each block independently for use in conjunction with the counts sheet.
 
   - ### TurboTape (Horizontal)
-    Use TurboTape to
-    
      - **Commands:** `tt;` `tt;h`
+     - **Uses:** Use TurboTape Horizontal to draw any standard linear tape
      - **Limitations:**
        - Requires a polyline as the base object.
        - Requires a new base polyline if lengths need to be adjusted.
