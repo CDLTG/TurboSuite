@@ -18,6 +18,7 @@ TurboSuite is a collection of AutoLISP routines developed to automate repetitive
 TurboTape is comprised of five subroutines which allow the user to construct any object that requires a linear quantity. While this can also be achieved using dynamic blocks, TurboTape names each block independently for use in conjunction with the counts sheet. During creation, you will be prompted for a `Type` and a `Tag`. The `Type` will be your block name and is a required entry. The `Tag` is a brief description of the block, and is an optional entry. For certain options, you will also be prompted for a `Quantity`. The `Quantity` value will default to `1`, but can be given any desired integer value.
 
   - ### TurboTape (Horizontal)
+    Draw horizontal linear tape of any kind.
      - **Commands:** `tt;` `tt;h`
      - **Function:** Draw horizontal linear tape of any kind.
      - **Limitations:**
