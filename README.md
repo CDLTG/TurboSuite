@@ -55,7 +55,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
       ![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
 
   - ### TurboTape (Array)
-    Draw an array of linear tape, primarily used for stairs.
+    Draw an array of linear tape, primarily used for stairs. You will be prompted for a `Stair Direction`, which will default to `Down`. This value is used to establish the offset direction of each line. Select a `Stair Direction` value relative to the location of your base polyline. You will also be prompted to select `Additional Stairs`. Select any point along the stair lines in the xref.
      - **Command:** `tt;a`
      - **Limitations:**
        - Requires a polyline as the base object.
