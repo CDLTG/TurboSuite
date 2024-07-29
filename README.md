@@ -31,9 +31,9 @@ TurboTape is comprised of five subroutines which allow the user to construct any
      - **Command:** `tt;v`
      - **Function:** Draw linear tape of any kind.
      - **Limitations:**
-       - 
-       - 
-       - 
+       - limit 1
+       - limit 2
+       - limit 3
 
       ![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
 
