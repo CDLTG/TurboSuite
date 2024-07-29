@@ -15,7 +15,7 @@ Turbo Suite is a collection of AutoLISP routines developed to automate repetitiv
 - [TurboName](#turboname)
 
 ## TurboTape
-TurboTape is comprised of five subroutines which allow the user to construct any object that requires a linear. While this can also be achieved using dynamic blocks, TurboTape names each block independently for use in conjunction with the counts sheet.
+TurboTape is comprised of five subroutines which allow the user to construct any object that requires a linear quantity. While this can also be achieved using dynamic blocks, TurboTape names each block independently for use in conjunction with the counts sheet. During creation, you will be prompted for a `Type` and a `Tag`
 
   - ### TurboTape (Horizontal)
      - **Commands:** `tt;` `tt;h`
@@ -29,11 +29,11 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Vertical)
      - **Command:** `tt;v`
-     - **Function:** Draw vertical linear tape of any kind.
+     - **Function:** Draw vertical linear tape of any kind. TurboTape Vertical can be called as 1,2,3 or 4 runs depending on size and available drafting space.
      - **Limitations:**
-       - limit 1
-       - limit 2
-       - limit 3
+       - Requires manual input of tape lengths; follow prompts closely.
+       - Once created, the new block will need to be moved into place manually.
+       - Works best when using reference lines from an xref.
 
       ![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
 
