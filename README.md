@@ -29,23 +29,31 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Vertical)
      - **Command:** `tt;v`
-    TurboTape Vertical description
-    ![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
+     - **Function:** Draw linear tape of any kind.
+     - **Limitations:**
+       - 
+       - 
+       - 
+
+      ![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
 
   - ### TurboTape (Fixture)
      - **Command:** `tt;f`
     TurboTape Fixture description
-    ![TurboTape Fixture gif](/GIF/TurboTape(Fixture).gif)
+
+      ![TurboTape Fixture gif](/GIF/TurboTape(Fixture).gif)
 
   - ### TurboTape (Custom)
      - **Command:** `tt;c`
     TurboTape Custom description
-    ![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
+
+      ![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
 
   - ### TurboTape (Array)
      - **Command:** `tt;a`
     TurboTape Array description
-    ![TurboTape Array gif](/GIF/TurboTape(Array).gif)
+
+      ![TurboTape Array gif](/GIF/TurboTape(Array).gif)
 
 ## TurboDriver
 TurboDriver description
