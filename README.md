@@ -19,7 +19,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Horizontal)
      - **Commands:** `tt;` `tt;h`
-     - **Function:** Draw linear tape of any kind.
+     - **Function:** Draw horizontal linear tape of any kind.
      - **Limitations:**
        - Requires a polyline as the base object.
        - Requires a new base polyline if lengths need to be adjusted.
@@ -29,7 +29,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Vertical)
      - **Command:** `tt;v`
-     - **Function:** Draw linear tape of any kind.
+     - **Function:** Draw vertical linear tape of any kind.
      - **Limitations:**
        - limit 1
        - limit 2
@@ -39,19 +39,31 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 
   - ### TurboTape (Fixture)
      - **Command:** `tt;f`
-    TurboTape Fixture description
+     - **Function:** Draw linear horizontal fixtures with a width dimension.
+     - **Limitations:**
+       - limit 1
+       - limit 2
+       - limit 3
 
       ![TurboTape Fixture gif](/GIF/TurboTape(Fixture).gif)
 
   - ### TurboTape (Custom)
      - **Command:** `tt;c`
-    TurboTape Custom description
+     - **Function:** Draw allowance for a custom linear tape length.
+     - **Limitations:**
+       - limit 1
+       - limit 2
+       - limit 3
 
       ![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
 
   - ### TurboTape (Array)
      - **Command:** `tt;a`
-    TurboTape Array description
+     - **Function:** Draw an array of matching linear tape, primarily used for stairs.
+     - **Limitations:**
+       - limit 1
+       - limit 2
+       - limit 3
 
       ![TurboTape Array gif](/GIF/TurboTape(Array).gif)
 
