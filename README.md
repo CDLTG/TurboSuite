@@ -79,12 +79,21 @@ TurboBubble is used to quickly place a switchleg bubble in the correct location 
 - **Command:** `tb`
 - **Limitations:**
   - Use for CDL Toolbar blocks only.
+  - Due to the abundant variations of block sizes and configurations, TurboBubble will place the switchleg bubble but will not draw the connecting wire for 'ZC' blocks.
 
 ![TurboBubble gif](/GIF/TurboBubble.gif)
 
 ## TurboScale
-TurboScale description
+TurboScale is used to scale objects to the correct size for the desired drawing scale. Once scaled, the block definition is saved and any blocks that are inserted or pulled from the toolbar will be scaled appropriately. When used on official TurboTape blocks or CDL Toolbar blocks with specific linear dimensions, TurboScale will only scale the text. TurboScale will record any rotation or attribute parameters and re-establish them after resetting the block.
+
 - **Command:** `ts`
+- **Limitations:**
+  - Will only scale Blocks, Text, Leaders, and Dimensions. Any wiring, text boxes, etc. will need to be scaled manually.
+  - Only use for setting objects to common architectural scales. Setting objects to custom scales will need to be done manually.
+  - If used on a block, be aware that the block will be reset using `RESETBLOCK`.
+  - If used on a block with Attributes, be aware that the attributes will be syncd using `ATTSYNC`.
+  - **_Pulling scaled blocks from the toolbar will require a `RESETBLOCK`! New blocks placed using the `INSERT` command will not require a reset._**
+  - Allow for ample time to cycle through all objects when used on a large selection set.
 
 ![TurboScale gif](/GIF/TurboScale.gif)
 
