@@ -37,7 +37,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
       ![TurboTape Vertical gif](/GIF/TurboTape(Vertical).gif)
 
   - ### TurboTape (Fixture)
-    Draw linear horizontal fixtures with a `Width` dimension. This value will default to `2`, but can be given any desired real value.
+    Draw linear horizontal fixtures including a `Width` dimension. This value will default to `2`, but can be given any desired real value.
      - **Command:** `tt;f`
      - **Limitations:**
        - Requires a polyline as the base object.
@@ -70,12 +70,15 @@ TurboDriver is used to quickly calculate and copy driver information to the Wind
   - Can only be used with official TurboTape blocks.
   - Can generate results that conflict with the drawing when the TurboDriver logic is impractical or the drawing is incorrect.
   - Only configured for Environmental Lights drivers.
+  - Requires all three selection sets to function (TurboTape / Leaders / Room Name).
 
 ![TurboDriver gif](/GIF/TurboDriver.gif)
 
 ## TurboBubble
-TurboBubble description
+TurboBubble is used to quickly place a switchleg bubble in the correct location relative to the block. TurboBubble operates using a long series of conditions established for CDL Toolbar blocks only. _TurboBubble will not work with foreign or complex custom blocks!_ After the switchleg is placed, you will have the option to flip the placement by pressing `f`. TurboBubble will scale the switchleg placement if used on a block that has been scaled using TurboScale, but it will not scale the switchleg block itself. Use TurboScale on the switchleg block to establish the proper scale in the drawing.
 - **Command:** `tb`
+- **Limitations:**
+  - Use for CDL Toolbar blocks only.
 
 ![TurboBubble gif](/GIF/TurboBubble.gif)
 
