@@ -51,6 +51,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
      - **Command:** `tt;c`
      - **Limitations:**
        - Requires a polyline as the base object.
+       - Requires manual input of tape lengths; follow prompts closely.
 
       ![TurboTape Fixture gif](/GIF/TurboTape(Custom).gif)
 
