@@ -92,7 +92,7 @@ TurboScale is used to scale objects to the correct size for the desired drawing 
   - Only use for setting objects to common architectural scales. Setting objects to custom scales will need to be done manually.
   - If used on a block, be aware that the block will be reset using `RESETBLOCK`.
   - If used on a block with Attributes, be aware that the attributes will be syncd using `ATTSYNC`.
-  - **_Pulling scaled blocks from the toolbar will require a_** `RESETBLOCK` **_! New blocks placed using the_** `INSERT` **_command will not require a reset._**
+  - **_Pulling scaled blocks from the toolbar will require a_**`RESETBLOCK`**_! New blocks placed using the_** `INSERT` **_command will not require a reset._**
   - Allow for ample time to cycle through all objects when used on a large selection set.
 
 ![TurboScale gif](/GIF/TurboScale.gif)
