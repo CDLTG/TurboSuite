@@ -60,36 +60,39 @@ TurboTape is comprised of five subroutines which allow the user to construct any
      - **Limitations:**
        - Requires a polyline as the base object.
        - **_Do not use for stairs of different lengths!_**
-       - limit 3
 
       ![TurboTape Array gif](/GIF/TurboTape(Array).gif)
 
 ## TurboDriver
-TurboDriver description
+TurboDriver is used to quickly calculate and copy driver information to the Windows clipboard for use in external programs. When initiating TurboDriver, you will be able to set a `Watts` value which will default to `5.5`. This value will persist until changed or the drawing is closed. Blocks processed by TurboDriver will be passed through exacting logic to determine the "ideal" driver setup, which can sometimes be impractical. _Verify all TurboDriver results when dealing with complex scenarios!_
 - **Command:** `td`
 - **Limitations:**
-  - limit 1
-  - limit 2
-  - limit 3
+  - Can only be used with official TurboTape blocks.
+  - Can generate results that conflict with the drawing when the TurboDriver logic is impractical or the drawing is incorrect.
+  - Only configured for Environmental Lights drivers.
 
 ![TurboDriver gif](/GIF/TurboDriver.gif)
 
 ## TurboBubble
 TurboBubble description
 - **Command:** `tb`
+
 ![TurboBubble gif](/GIF/TurboBubble.gif)
 
 ## TurboScale
 TurboScale description
 - **Command:** `ts`
+
 ![TurboScale gif](/GIF/TurboScale.gif)
 
 ## TurboChange
 TurboChange description
 - **Command:** `tc`
+
 ![TurboChange gif](/GIF/TurboChange.gif)
 
 ## TurboName
 TurboName description
 - **Command:** `tn`
+
 ![TurboName gif](/GIF/TurboName.gif)
