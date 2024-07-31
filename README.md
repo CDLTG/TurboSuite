@@ -99,13 +99,16 @@ TurboScale is used to scale objects to the correct size for the desired drawing 
 ![TurboScale gif](/GIF/TurboScale.gif)
 
 ## TurboChange
-TurboChange description
+TurboChange is used to quickly generate a new block definition from an existing block definition. TurboChange will also re-center attribute grips based on the new text sizes.
 - **Command:** `tc`
 
 ![TurboChange gif](/GIF/TurboChange.gif)
 
 ## TurboName
-TurboName description
+TurboName is used to quickly build room names by clicking on the text objects in the xref. Follow the prompts closely to see which object the program is expecting. If certain objects are not provided in the xref, simply skip that object by pressing `space`. When the selected objects turn orange, the program is ready to place the text and is expecting a user-supplied insertion point.
 - **Command:** `tn`
+- **Limitations:**
+  - Currently does not work with room names that are multiple lines or multiple objects.
+  - Currently does not work with reference text that has excesive text formatting.
 
 ![TurboName gif](/GIF/TurboName.gif)
