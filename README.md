@@ -112,3 +112,6 @@ TurboName is used to quickly build room names by clicking on the text objects in
   - Currently does not work with reference text that has excesive text formatting.
 
 ![TurboName gif](/GIF/TurboName.gif)
+
+### Acknowledgements
+https://lee-mac.com/
