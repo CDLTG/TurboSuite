@@ -28,7 +28,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
       ![TurboTape Horizontal gif](/GIF/TurboTape(Horizontal).gif)
 
   - ### TurboTape (Vertical)
-    Draw vertical linear tape of any kind. TurboTape Vertical can be called as 1,2,3 or 4 runs depending on size and available drafting space.
+    Draw vertical linear tape of any kind. TurboTape Vertical can be called as one, two, three, or four runs depending on size and available drafting space.
      - **Command:** `tt;v`
      - **Limitations:**
        - Requires manual input of tape lengths; follow prompts closely.
