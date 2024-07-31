@@ -68,7 +68,7 @@ TurboTape is comprised of five subroutines which allow the user to construct any
 TurboDriver is used to quickly calculate and copy driver information to the Windows clipboard for use in external programs. When initiating TurboDriver, you will be able to set a `Watts` value which will default to `5.5`. This value will persist until changed or the drawing is closed. Blocks processed by TurboDriver will be passed through exacting logic to determine the "ideal" driver setup, which can sometimes be impractical. _Verify all TurboDriver results when dealing with complex scenarios!_
 - **Command:** `td`
 - **Limitations:**
-  - Can only be used with official TurboTape blocks.
+  - Can only be used with official [TurboTape](#turbotape) blocks.
   - Can generate results that conflict with the drawing when the TurboDriver logic is impractical or the drawing is incorrect.
   - Only configured for Environmental Lights drivers.
   - Requires all three selection sets to function (TurboTape / Leaders / Room Name).
@@ -76,7 +76,7 @@ TurboDriver is used to quickly calculate and copy driver information to the Wind
 ![TurboDriver gif](/GIF/TurboDriver.gif)
 
 ## TurboBubble
-TurboBubble is used to quickly place a switchleg bubble in the correct location relative to the block. TurboBubble operates using a long series of conditions established for CDL Toolbar blocks only. _TurboBubble will not work with foreign or complex custom blocks!_ After the switchleg is placed, you will have the option to flip the placement by pressing `f`. TurboBubble will scale the switchleg placement if used on a block that has been scaled using TurboScale, but it will not scale the switchleg block itself. Use TurboScale on the switchleg block to establish the proper scale in the drawing.
+TurboBubble is used to quickly place a switchleg bubble in the correct location relative to the block. TurboBubble operates using a long series of conditions established for CDL Toolbar blocks only. _TurboBubble will not work with foreign or complex custom blocks!_ After the switchleg is placed, you will have the option to flip the placement by pressing `f`. TurboBubble will scale the switchleg placement if used on a block that has been scaled using [TurboScale](#turboscale), but it will not scale the switchleg block itself. Use [TurboScale](#turboscale) on the switchleg block to establish the proper scale in the drawing.
 - **Command:** `tb`
 - **Limitations:**
   - Use for CDL Toolbar blocks only.
@@ -85,7 +85,7 @@ TurboBubble is used to quickly place a switchleg bubble in the correct location 
 ![TurboBubble gif](/GIF/TurboBubble.gif)
 
 ## TurboScale
-TurboScale is used to scale objects to the correct size for the desired drawing scale. Once scaled, the block definition is saved and any blocks that are inserted or pulled from the toolbar will be scaled appropriately. When used on official TurboTape blocks or CDL Toolbar blocks with specific linear dimensions, TurboScale will only scale the text. TurboScale will record any rotation or attribute parameters and re-establish them after resetting the block.
+TurboScale is used to scale objects to the correct size for the desired drawing scale. Once scaled, the block definition is saved and any blocks that are inserted or pulled from the toolbar will be scaled appropriately. When used on official [TurboTape](#turbotape) blocks or CDL Toolbar blocks with specific linear dimensions, TurboScale will only scale the text. TurboScale will record any rotation or attribute parameters and re-establish them after resetting the block.
 
 - **Command:** `ts`
 - **Limitations:**
