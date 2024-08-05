@@ -13,6 +13,7 @@ TurboSuite is a collection of AutoLISP routines developed to automate repetitive
 - [TurboScale](#turboscale)
 - [TurboChange](#turbochange)
 - [TurboName](#turboname)
+- [TurboClean](#turboclean)
 
 ## TurboTape
 TurboTape is comprised of five subroutines which allow the user to construct any object that requires a linear quantity. While this can also be achieved using dynamic blocks, TurboTape names each block independently for use in conjunction with the counts sheet. During creation, you will be prompted for a `Type` and a `Tag`. The `Type` will be your block name and is a required entry. The `Tag` is a brief description of the block, and is an optional entry. For certain options, you will also be prompted for a `Quantity`. The `Quantity` value will default to `1`, but can be given any desired integer value.
@@ -112,6 +113,57 @@ TurboName is used to quickly build room names by clicking on the text objects in
   - Currently does not work with reference text that has excesive text formatting.
 
 ![TurboName gif](/GIF/TurboName.gif)
+
+## TurboClean
+TurboClean expands the existing toolbar clean button to include more functionality. See the table below for differences between the clean functions. When prompted, select `Yes` to cycle through blocks to clean block subentities. This should only be done once during the initial setup.
+- **Command:** `clean`
+- **Limitations:**
+  - Does not work with Candelaria block "TABLES"
+  - Allow for ample time to cycle through all blocks when `Clean Blocks` is selected.
+
+|                                                       | Toolbar Clean      | TurboClean         |
+| ----------------------------------------------------- | :----------------: | :----------------: |
+| Turn all layers on                                    | :heavy_check_mark: | :heavy_check_mark: |
+| Thaw all layers                                       | :heavy_check_mark: | :heavy_check_mark: |
+| Change current layer to '0'                           | :heavy_check_mark: | :heavy_check_mark: |
+| Set current text style to 'Standard'                  | :heavy_check_mark: | :heavy_check_mark: |
+| Set current font name to 'Simplex'                    | :heavy_check_mark: | :heavy_check_mark: |
+| Change ByBlock to ByLayer                             | :heavy_check_mark: | :heavy_check_mark: |
+| Set blocks to ByLayer                                 | :heavy_check_mark: | :heavy_check_mark: |
+| Delete all layouts                                    | :heavy_check_mark: | :heavy_check_mark: |
+| Detatch all XREFs                                     | :heavy_check_mark: | :heavy_check_mark: |
+| Detatch all Images                                    | :heavy_check_mark: | :heavy_check_mark: |
+| Set all layer colors to '7'                           | :heavy_check_mark: | :heavy_check_mark: |
+| Set all layer linetypes to 'Continuous'               | :heavy_check_mark: | :heavy_check_mark: |
+| Set all layer lineweights to 'Default'                | :heavy_check_mark: | :heavy_check_mark: |
+| Purge All (First)                                     | :heavy_check_mark: | :heavy_check_mark: |
+| Purge All (Second)                                    | :heavy_check_mark: | :heavy_check_mark: |
+| Purge Regapps                                         | :heavy_check_mark: | :heavy_check_mark: |
+| Audit drawing                                         | :heavy_check_mark: | :heavy_check_mark: |
+| Set point mode to '3'                                 | :heavy_check_mark: | :heavy_check_mark: |
+| Zoom Extents                                          | :heavy_check_mark: | :heavy_check_mark: |
+| Unlock all layers                                     |                    | :heavy_check_mark: |
+| Detatch all PDFs                                      |                    | :heavy_check_mark: |
+| Delete all layer states                               |                    | :heavy_check_mark: |
+| Set dimension colors to 'ByLayer'                     |                    | :heavy_check_mark: |
+| Set leader colors to 'ByLayer'                        |                    | :heavy_check_mark: |
+| Set all polyline widths to '0'                        |                    | :heavy_check_mark: |
+| Set all linetype scales to '1.0'                      |                    | :heavy_check_mark: |
+| Delete all Points                                     |                    | :heavy_check_mark: |
+| Delete all Wipeouts                                   |                    | :heavy_check_mark: |
+| Overkill with 0.000001 tolerance                      |                    | :heavy_check_mark: |
+| Undo marks                                            |                    | :heavy_check_mark: |
+| **Optional Subentity Functions**                      |                    | :heavy_check_mark: |
+|    - Delete Wipeout subentities                       |                    | :heavy_check_mark: |
+|    - Delete Point subentities                         |                    | :heavy_check_mark: |
+|    - Delete 'Phantom2' linetype subentities           |                    | :heavy_check_mark: |
+|    - Delete 'Defpoints' layer line subentities        |                    | :heavy_check_mark: |
+|    - Set all line subentity colors to 'Bylayer'       |                    | :heavy_check_mark: |
+|    - Set all line subentity linetypes to 'ByLayer'    |                    | :heavy_check_mark: |
+|    - Set all line subentity linetype scales to '1.0'  |                    | :heavy_check_mark: |
+|    - Set all line subentity lineweights to 'Default'  |                    | :heavy_check_mark: |
+|    - Set polyline subentity width to '0'              |                    | :heavy_check_mark: |
+
 
 ## Acknowledgements
 https://lee-mac.com/
