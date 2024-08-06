@@ -158,7 +158,7 @@ TurboClean expands the existing toolbar clean button to include more functionali
 |    - Delete Point subentities                         |                    | :heavy_check_mark: |
 |    - Delete 'Phantom2' linetype subentities           |                    | :heavy_check_mark: |
 |    - Delete 'Defpoints' layer line subentities        |                    | :heavy_check_mark: |
-|    - Set all line subentity colors to 'Bylayer'       |                    | :heavy_check_mark: |
+|    - Set all line subentity colors to 'ByLayer'       |                    | :heavy_check_mark: |
 |    - Set all line subentity linetypes to 'ByLayer'    |                    | :heavy_check_mark: |
 |    - Set all line subentity linetype scales to '1.0'  |                    | :heavy_check_mark: |
 |    - Set all line subentity lineweights to 'Default'  |                    | :heavy_check_mark: |
