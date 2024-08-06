@@ -110,7 +110,7 @@ TurboName is used to quickly build room names by clicking on the text objects in
 - **Command:** `tn`
 - **Limitations:**
   - Currently does not work with room names that are multiple lines or multiple objects.
-  - Currently does not work with reference text that has excesive text formatting.
+  - Currently does not work with reference text that has excessive text formatting.
 
 ![TurboName gif](/GIF/TurboName.gif)
 
