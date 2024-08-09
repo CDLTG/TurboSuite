@@ -162,7 +162,7 @@ TurboClean expands the existing toolbar clean button to include more functionali
 |    - Set all line subentity linetypes to 'ByLayer'    |                    | :heavy_check_mark: |
 |    - Set all line subentity linetype scales to '1.0'  |                    | :heavy_check_mark: |
 |    - Set all line subentity lineweights to 'Default'  |                    | :heavy_check_mark: |
-|    - Set polyline subentity width to '0'              |                    | :heavy_check_mark: |
+|    - Set polyline subentity widths to '0'              |                    | :heavy_check_mark: |
 
 
 ## Acknowledgements
