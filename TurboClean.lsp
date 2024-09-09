@@ -186,7 +186,7 @@
   ); end if
 
   ; overkill / purge all / purge regapps / audit
-  (command  "-overkill" "all" "" "I" "N" "O" "0.000001" "P" "D" "N" "B" "Y" "Y" "T" "Y" "E" "N" "A" "Y" "D"
+  (command  "-overkill" "all" "" "I" "N" "O" "0.000001" "P" "D" "N" "B" "Y" "Y" "T" "N" "E" "N" "A" "Y" "D"
             "-purge" "all" "*" "no"
             "-purge" "regapps" "*" "no"
             "audit" "yes"
