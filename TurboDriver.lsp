@@ -26,7 +26,7 @@
 (setq oldmutt (getvar "NOMUTT"))
 
 (if (not pwr)
-    (setq pwr 5.5))
+    (setq pwr 5.0))
 ;(print (strcat "Current Watts/Foot : " (rtos pwr 2 1)))
 (initget "Watts Select")
 (setq td (getkword (strcat "\nSet Watts/Foot " "<" (rtos pwr 2 1) "> or Select Turbo Tape(s) [Watts/Select] <Select> : ")))
@@ -35,7 +35,7 @@
     (progn
       (setq pwr (getreal (strcat "\nCurrent Watts/Foot: <" (rtos pwr 2 1) "> | " "Enter new Watts/Foot: ")))
       (if (not pwr)
-          (setq pwr 5.5)
+          (setq pwr 5.0)
       ); end if
     ); end progn
 ); end if
@@ -50,7 +50,7 @@
 (setq n 0)
 (repeat (sslength sset)
         (if
-          (not (>= (if (= (cdr (assoc 0 (entget (ssname sset n)))) "INSERT") (vl-string-search "in" (vla-get-effectivename (vlax-ename->vla-object (ssname sset n))))) 7))
+          (not (>= (if (= (cdr (assoc 0 (entget (ssname sset n)))) "INSERT") (vl-string-search "in" (vla-get-effectivename (vlax-ename->vla-object (ssname sset n))))) 6))
           (progn
             (alert "Select official Turbo Tape™ blocks only!")
             (exit)
@@ -71,7 +71,7 @@
             (setq attname (cdr (assoc 1 (entget ename))))
             (setq attname
               (*
-                (/ (+ (* (atoi (substr attname (+ (vl-string-search "-" attname) 2) (- (- (vl-string-search "'" attname) 1) 2))) 12)
+                (/ (+ (* (atoi (substr attname (+ (vl-string-search "-" attname) 2) (1- (- (vl-string-search "'" attname) (vl-string-search "-" attname))))) 12)  
                       (atoi (vl-string-trim "\"" (substr attname (+ (vl-string-search "'" attname) 3))))) 12.0 )
                 (atoi
                   (if (not (vl-string-search "(" (cdr (assoc 1 (entget ename)))))
